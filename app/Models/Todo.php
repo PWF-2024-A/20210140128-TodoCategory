@@ -13,6 +13,7 @@ class Todo extends Model
         'user_id',
         'category_id',
         'is_complete',
+        'is_complete' => 'boolean',
     ];
     public function user()
     {
